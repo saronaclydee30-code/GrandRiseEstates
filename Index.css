@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333333;
+}
+
+.nav-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(19, 24, 24, 0.7);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-header {
+    background: #131818;
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #E1BE4E;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.inquire-btn {
+    padding: 10px 20px;
+    background-color: #131818;
+    color: #E1BE4E;
+    border: 2px solid #E1BE4E;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.inquire-btn:hover {
+    background-color: #E1BE4E;
+    color: #131818;
+}
+
+.main-navbar {
+    background-color: rgba(19, 24, 24, 0.7);
+    padding: 10px 0;
+}
+
+.main-navbar ul {
+    list-style: none;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.main-navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-navbar ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+.main-navbar ul li a:hover {
+    color: #E1BE4E;
+}
+
+.home {
+    background: url("house1.png") center center no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 5%;
+    text-shadow: 2px 2px 4px rgba(164, 164, 164, 0.7);
+}
+
+.hero-content {
+    color: #ffffff;
+    text-shadow: #000000 2px 2px 4px;
+    padding-bottom: 100px;
+}
+
+.home h1 {
+    font-size: 60px;
+    text-shadow: #000000 2px 2px 4px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.home h5 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.info-panel {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-item {
+    text-align: center;
+}
+
+.info-item p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.info-item span {
+    font-size: 14px;
+}
+
+.content {
+    max-width: 80%;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #FFFFFF;
+    background-color: #131818;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+    color: #555555;
+}
+
+.footer {
+    background: #131818;
+    padding: 80px 0 30px 0;
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.footer-col .logo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.footer-col .logo span {
+    color: #E1BE4E;
+}
+
+.footer-col h3 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 8px 0;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #E1BE4E;
+}
+
+.social i {
+    font-size: 22px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #E1BE4E;
+}
+
+.social i:hover {
+    color: #ffffff;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
