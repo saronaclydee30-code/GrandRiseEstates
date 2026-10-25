@@ -82,7 +82,7 @@ body {
 }
 
 .home {
-    background: url("house1.png") center center no-repeat;
+    background: url("Images/house1.png") center center no-repeat;
     background-size: cover;
     height: 800px;
     display: flex;

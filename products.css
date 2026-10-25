@@ -82,7 +82,7 @@ body {
 }
 
 .products-hero {
-    background: url('house 3.jpg') center center no-repeat; 
+    background: url('Images/house%203.jpg') center center no-repeat;
     background-size: cover;
     height: 300px; 
     display: flex;
@@ -258,7 +258,7 @@ body {
 .detail-header-hero {
     /* Placeholder for the property image banner */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('house\ 2.jpg') center center no-repeat; 
+                url('Images/house%202.jpg') center center no-repeat;
     background-size: cover;
     height: 400px;
     display: flex;
